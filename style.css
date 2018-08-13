@@ -1,0 +1,92 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.title{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    font-size: 20px;
+    background-color: #DDDDDD;
+    height: 100%;
+    position: fixed;
+}
+
+.author{
+    position: fixed;
+    bottom: 0;
+    font-size: 14px;
+}
+
+li a{
+    display: block;
+    color: #000000;
+    padding: 4px 8px;
+    text-decoration: none;
+    transition: all 0.9s ease 0s;
+    transition-property: all;
+    transition-duration: 0.9s;
+    transition-timing-function: ease;
+    transition-delay: 0s
+}
+
+li a.active {
+    background-color: #69AF33;
+    color: #FFFFFF;
+}
+
+
+li a:hover:not(.active){
+    background-color: #A3A3A3;
+}
+
+.sketchfab-embed-wrapper{
+    text-align: center;
+}
+
+.aboutbg{
+    position:fixed;
+    min-height: 125vh;
+    max-height: 125vh;
+    left:150px;
+}
+
+.aboutTitle{
+    color: white;
+    position: fixed;
+    top: 10px;
+    left: 200px;
+}
+
+.aboutText{
+    position: fixed;
+    left: 200px;
+    top: 80px;
+    font-size: 20px;
+    color: white;
+
+}
+
+.methodsTitle{
+    position: fixed;
+    left: 200px;
+    top: 80px;
+    font-size: 20px;
+    color: white;
+}
+
+a {
+  color: inherit;
+}
